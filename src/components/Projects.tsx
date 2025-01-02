@@ -5,29 +5,29 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: 'E-Commerce Platform',
-    description: 'A full-stack e-commerce platform built with React, Node.js, and MongoDB.',
+    title: 'Music Selling Platform',
+    description: 'A full-stack Music Selling platform built with React, Node.js, and MongoDB.',
     image: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=800',
-    tags: ['React', 'Node.js', 'MongoDB', 'Redux'],
-    liveLink: 'https://example.com',
-    githubLink: 'https://github.com/example'
+    tags: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS'],
+    liveLink: 'https://durshbeats.store',
+    githubLink: 'https://github.com/lavi9966'
   },
   {
-    title: 'Task Management App',
-    description: 'A collaborative task management application with real-time updates.',
+    title: 'Student Feedback System',
+    description: 'A collaborative Student Feedback System with real-time updates.',
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800',
-    tags: ['React', 'Firebase', 'Tailwind CSS'],
-    liveLink: 'https://example.com',
-    githubLink: 'https://github.com/example'
+    tags: ['React', 'Node.js', 'MongoDB',],
+    liveLink: 'https://studentfeedbacksystem.netlify.app/',
+    githubLink: 'https://github.com/lavi9966'
   },
-  {
-    title: 'AI Chat Application',
-    description: "An AI-powered chat application using OpenAI's GPT API.",
-    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800',
-    tags: ['Next.js', 'OpenAI', 'TypeScript'],
-    liveLink: 'https://example.com',
-    githubLink: 'https://github.com/example'
-  }
+  // {
+  //   title: 'AI Chat Application',
+  //   description: "An AI-powered chat application using OpenAI's GPT API.",
+  //   image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800',
+  //   tags: ['Next.js', 'OpenAI', 'TypeScript'],
+  //   liveLink: 'https://example.com',
+  //   githubLink: 'https://github.com/example'
+  // }
 ];
 
 export default function Projects() {

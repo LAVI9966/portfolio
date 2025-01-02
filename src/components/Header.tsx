@@ -4,7 +4,7 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 
 export default function Header() {
   return (
-    <motion.header 
+    <motion.header
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8 }}
@@ -17,9 +17,9 @@ export default function Header() {
           transition={{ delay: 0.2 }}
           className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
         >
-          John Doe
+          𝙇𝙖𝙫𝙞𝙨𝙝 𝙂𝙚𝙝𝙡𝙤𝙙
         </motion.div>
-        
+
         <nav className="hidden md:flex space-x-8">
           {['About', 'Projects', 'Skills', 'Contact'].map((item, index) => (
             <motion.a
@@ -37,9 +37,9 @@ export default function Header() {
 
         <div className="flex items-center space-x-4">
           {[
-            { Icon: Github, href: 'https://github.com/yourusername' },
-            { Icon: Linkedin, href: 'https://linkedin.com/in/yourusername' },
-            { Icon: Mail, href: 'mailto:your.email@example.com' }
+            { Icon: Github, href: 'https://github.com/lavi9966' },
+            { Icon: Linkedin, href: 'https://www.linkedin.com/in/lavish-gehlod-340207237/' },
+            { Icon: Mail, href: 'mailto:gehlodlavish@gmail.com' }
           ].map(({ Icon, href }, index) => (
             <motion.a
               key={href}

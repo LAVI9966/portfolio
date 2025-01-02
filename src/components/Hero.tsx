@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="min-h-screen pt-20 flex items-center bg-gradient-to-b from-white to-gray-50">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
-          <motion.div 
+          <motion.div
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
@@ -18,24 +18,28 @@ export default function Hero() {
               <span className="block text-blue-600">Experiences</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl">
-              Full-stack developer specializing in building exceptional digital experiences. 
+              Full-stack developer specializing in building exceptional digital experiences.
               Let's turn your ideas into reality.
             </p>
             <div className="flex gap-4">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="px-8 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
-              >
-                View Projects
-              </motion.button>
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="px-8 py-3 border-2 border-blue-600 text-blue-600 rounded-lg font-medium hover:bg-blue-50 transition-colors"
-              >
-                Contact Me
-              </motion.button>
+              <a href='#projects'>
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="px-8 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
+                >
+                  View Projects
+                </motion.button>
+              </a>
+              <a href='#contact'>
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="px-8 py-3 border-2 border-blue-600 text-blue-600 rounded-lg font-medium hover:bg-blue-50 transition-colors"
+                >
+                  Contact Me
+                </motion.button>
+              </a>
             </div>
           </motion.div>
 
@@ -47,11 +51,11 @@ export default function Hero() {
           >
             <div className="relative w-full aspect-square max-w-md mx-auto">
               <motion.div
-                animate={{ 
+                animate={{
                   rotate: [0, 360],
                   borderRadius: ["25% 75% 75% 25% / 25% 25% 75% 75%", "75% 25% 25% 75% / 75% 75% 25% 25%"]
                 }}
-                transition={{ 
+                transition={{
                   duration: 8,
                   repeat: Infinity,
                   repeatType: "reverse"

@@ -1,24 +1,32 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Code2, Database, Layout, Server } from 'lucide-react';
+import { Code2, Wrench, Database, Layout, Library, Server } from 'lucide-react';
 
 const skills = {
   'Frontend Development': {
     icon: Layout,
-    skills: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Redux']
+    skills: ['HTML', 'CSS', 'React', 'JavaScript', 'Tailwind CSS',]
   },
   'Backend Development': {
     icon: Server,
-    skills: ['Node.js', 'Express', 'Python', 'Django', 'REST APIs']
+    skills: ['Node.js', 'Express', 'EJS', 'REST APIs']
   },
   'Database': {
     icon: Database,
-    skills: ['PostgreSQL', 'MongoDB', 'Redis', 'MySQL', 'Firebase']
+    skills: ['MongoDB', 'MySQL']
   },
   'Programming Languages': {
     icon: Code2,
-    skills: ['JavaScript', 'TypeScript', 'Python', 'Java', 'SQL']
+    skills: ['CPP', 'JavaScript', 'SQL']
+  },
+  'Dev Tools': {
+    icon: Wrench,
+    skills: ['VsCode', 'Git', 'GitHub', 'Postman']
+  },
+  'Core Subject': {
+    icon: Library,
+    skills: ['Data Structure', 'Algorithm', 'DBMS', 'OS']
   }
 };
 
